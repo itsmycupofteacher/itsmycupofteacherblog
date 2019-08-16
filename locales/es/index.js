@@ -1,4 +1,6 @@
 import footer from './footer'
+import home from './home'
+import blogSection from './blogSection'
 import indexPageHead from './index-page-head'
 
 export default {
@@ -7,6 +9,7 @@ export default {
   comeBack: 'Volver atrás',
   indexPageHead: indexPageHead,
   posts: 'Posts',
-  home: 'Home',
+  blogSection:blogSection,
+  home: home,
   footer: footer
 }

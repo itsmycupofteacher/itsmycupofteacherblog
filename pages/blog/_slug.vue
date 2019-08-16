@@ -226,7 +226,7 @@
   padding: 3.2rem 0;
   font-size: 16px;
   line-height: 1.7;
-  color: $secondary;
+  color: $grey-1;
 
   > *:not(.datagrid):not(.image-placeholder) {
     max-width: 700px;

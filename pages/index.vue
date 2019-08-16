@@ -1,5 +1,6 @@
 <template>
   <div class="page-index">
+    <Home/> 
     <div class="container">
       <BlogSection :blogs="blogs"/>
     </div>
@@ -8,6 +9,7 @@
 
 <script>
   import BlogSection from "~/components/Sections/BlogSection"
+  import Home from "~/components/Sections/Home"
 
   import blogsEn from '~/contents/en/blogsEn.js'
   import blogsEs from '~/contents/es/blogsEs.js'
@@ -30,7 +32,7 @@
       })
     },
     
-    components: { BlogSection },
+    components: { BlogSection, Home },
 
     transition: {
       name: 'slide-fade'

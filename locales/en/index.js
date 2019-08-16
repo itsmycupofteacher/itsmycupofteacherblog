@@ -1,5 +1,8 @@
 import footer from './footer'
+import home from './home'
+import blogSection from './blogSection'
 import indexPageHead from './index-page-head'
+
 
 export default {
   changeLanguagePost: 'Artículo disponible en español',
@@ -7,6 +10,7 @@ export default {
   comeBack: 'Come back',
   indexPageHead: indexPageHead,
   posts: 'Posts',
-  home: 'Home',
+  home: home,
+  blogSection: blogSection,
   footer: footer
 }

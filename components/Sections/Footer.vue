@@ -41,6 +41,7 @@ export default {
   }
 
 	&__copyright {
+    color: $text-negative;
 		text-align: center;
 		@media (min-width: $screen-sm) {
 			text-align: inherit;

@@ -23,10 +23,10 @@ export default {
 </script>
 
 <style lang="scss">
+
 .toolbar {
 	&__info {
-		background-color: $background-secondary;//$background-primary;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+		background-color: $background-primary;
 		padding: 1.5em 0;
   }
   
@@ -35,31 +35,15 @@ export default {
     justify-content: space-between;
     width: 100%;
     flex-direction: column;
-
-    @media (min-width: $screen-sm){
-      flex-direction: row;
-    }
   }
 
-	&__copyright {
-		text-align: center;
-		@media (min-width: $screen-sm) {
-			text-align: inherit;
-		}
-	}
-
-	&__top-page {
-		color: $text-negative;
+	&__name {
 		display: block;
 		text-align: center;
 		line-height: 1;
 		-webkit-transition: 1s;
 		-moz-transition: 1s;
     transition: 1s;
-    
-		@media (min-width: $screen-sm){
-			text-align: right;
-		}
 	}
 }
 </style>

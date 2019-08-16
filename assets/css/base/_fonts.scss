@@ -1,4 +1,4 @@
-$font-base-color:             $grey-2;
+$font-base-color:             $grey-1;
 $font-family-base:            'Graphik', Arial, sans-serif;
 $font-family-blog:            'Tiempos Headline', Arial, sans-serif;
 $line-height-base:            1.5;
@@ -91,7 +91,7 @@ h1,.h1{
 
 h2,.h2{
   font-size: $fs-h2;
-  color: $secondary;
+  color: $grey-1;
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 1rem;
