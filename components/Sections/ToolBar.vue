@@ -2,12 +2,10 @@
   <toolbar>
     <div class="toolbar__info">
       <div class="container toolbar__info-container">
-        <div class="toolbar__copyright">
-          © {{ year }} — <span v-html="$t('toolbar.credits')"/>
+        <div class="toolbar__name">
+           <ImageResponsive
+           :imageURL="'logo.svg'" />
         </div>
-        <a href="#top" class="toolbar__top-page">
-          ^
-        </a>
       </div>
     </div>
   </toolbar>
