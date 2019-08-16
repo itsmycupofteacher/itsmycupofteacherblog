@@ -1,15 +1,18 @@
 <template>
   <div class="layout">
+    <ToolBar/>
     <nuxt class="nuxt-content"/>
     <Footer/>
   </div>
 </template>
 <script>
   import Footer from '~/components/Sections/Footer'
-
+  import ToolBar from '~/components/Sections/ToolBar'
+  
   export default {
     components: {
-      Footer
+      Footer,
+      ToolBar
     }
   }
 </script>
