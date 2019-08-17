@@ -1,5 +1,5 @@
 <template>
-  <toolbar>
+  <div>
     <div class="toolbar__info">
       <div class="container toolbar__info-container">
         <div class="toolbar__name">
@@ -8,7 +8,7 @@
         </div>
       </div>
     </div>
-  </toolbar>
+  </div>
 </template>
 <script>
 export default {
