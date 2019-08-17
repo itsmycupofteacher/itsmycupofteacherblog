@@ -36,11 +36,14 @@ export default {
       return this.blogs[0].name;
     },
    filteredList() {
-      return this.blogs.filter(blog => {
-        return blog.title.toLowerCase().includes(this.getSearch.toLowerCase()) || 
-        blog.descriptio.toLowerCase().includes(this.getSearch.toLowerCase())
-      })
-    }
+    var text = this.searchText.toLowerCase().split(' ');
+    return this.blogs.filter(item => {
+    return text.every(el => {
+      return item.title.toLowerCase().indexOf(el) > -1 ||
+             item.description.toLowerCase().toLowerCase().indexOf(el) > -1;
+    });
+  });
+}
   },
   props: {
     blogs: {

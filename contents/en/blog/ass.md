@@ -5,8 +5,20 @@ year: 1 January 2019
 color: '#8e7964'
 trans: 'culo'
 id: 'ass'
-description: |
-  How I created my new website with portfolio and blog in two languages. What technology I used and why.
+description: 
+  How I created my new website with portfolio and blog in two languages. What technology I used and why. 
+  <br/> Culo 
+  <br/> Ano
+  <br/> Pedo 
+  <br/> Teta
+  <br/> Culo 
+  <br/> Culo
+  <br/> Culo 
+  <br/> Culo
+  <br/> Culo 
+  <br/> Culo
+  <br/> Culo 
+  <br/> Culo
 ---
 
 

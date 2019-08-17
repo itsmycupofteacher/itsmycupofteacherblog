@@ -26,7 +26,7 @@
             <h1 class="elevate-cover__title">
               {{ title }}
             </h1>
-            <p class="elevate-cover__description">{{ description }}</p>
+            <p class="elevate-cover__description" v-html="description"></p>
           </div>
         </div>
         <ImageResponsive
@@ -50,7 +50,6 @@
           :extra-component="extraComponent" />
       </no-ssr>
     </div>
-    <Subscribe/>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <home>
+  <div>
     <div class="home__info">
       <div class="container home__info-container">
         <div class="home__init">
@@ -7,7 +7,7 @@
         </div>
       </div>
     </div>
-  </home>
+  </div>
 </template>
 <script>
 export default {

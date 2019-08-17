@@ -12,8 +12,7 @@
       <h3 class="blog__title">
         {{ blog.title }}
       </h3>
-      <p class="blog__description">
-        {{ blog.description }}
+      <p class="blog__description" v-html="blog.description">
       </p>
     </nuxt-link>
   </li>
