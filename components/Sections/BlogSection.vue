@@ -12,9 +12,8 @@
       </div>
       <LangSwitcher />
     </div>
-    <div>{{getSearch}}</div>
     <ul class="blogs">
-      <blog-card v-for="blog in blogs" :key="blog.name" :blog="blog" />
+      <blog-card v-for="blog in filteredList" :key="blog.name" :blog="blog" />
     </ul>
   </section>
 </template>f
@@ -32,6 +31,15 @@ export default {
   computed:{
     getSearch() {
       return this.searchText;
+    },
+    firstPost() {
+      return this.blogs[0].name;
+    },
+   filteredList() {
+      return this.blogs.filter(blog => {
+        return blog.title.toLowerCase().includes(this.getSearch.toLowerCase()) || 
+        blog.descriptio.toLowerCase().includes(this.getSearch.toLowerCase())
+      })
     }
   },
   props: {
