@@ -8,7 +8,7 @@ const productionUrl = {
   en: "/en",
   es: "/es"
 };
-const baseUrl = 'https://marinaaisa.com';
+const baseUrl = '';
 
 module.exports = {
   env: {
@@ -16,7 +16,7 @@ module.exports = {
     productionUrl
   },
   head: {
-    title: 'Marina Aisa | Product Designer & Front-end Developer',
+    title: 'It\'s my cup of teacher',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' },
@@ -25,7 +25,6 @@ module.exports = {
       { name: 'theme-color', content: '#c1c1c1' },
       { name: 'robots', content: 'index, follow' },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:site', content: '@marinaaisa' },
       { property: 'og:type', content: 'profile' },
       { property: 'og:updated_time', content: builtAt }
     ],
