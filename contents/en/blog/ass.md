@@ -1,24 +1,12 @@
 ---
-name: 'ass'
-title: Ass Test
+name: 'one'
+title: One Test
 year: 1 January 2019
 color: '#8e7964'
-trans: 'culo'
-id: 'ass'
+trans: 'uno'
+id: 'one'
 description: 
   How I created my new website with portfolio and blog in two languages. What technology I used and why. 
-  <br/> Culo 
-  <br/> Ano
-  <br/> Pedo 
-  <br/> Teta
-  <br/> Culo 
-  <br/> Culo
-  <br/> Culo 
-  <br/> Culo
-  <br/> Culo 
-  <br/> Culo
-  <br/> Culo 
-  <br/> Culo
 ---
 
 
