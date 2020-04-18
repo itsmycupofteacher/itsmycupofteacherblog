@@ -113,7 +113,7 @@ While writing in Medium **you don't have control over your blog** such as CSS, S
 Thanks to Google's tool [Lighthouse](https://developers.google.com/web/fundamentals/performance/audit/) we can analyze and compare Medium with my website.
 
 <image-responsive
-    imageURL="blog/ass/performance.jpg"
+    imageURL="blog/one/performance.jpg"
     :width="'952'"
     :height="'509'"
     alt="performance" />
